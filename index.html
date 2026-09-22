@@ -1,0 +1,181 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#ef4c2f">
+  <meta name="description" content="Dubai in details: three small, late-night rituals that make the city feel like itself.">
+  <title>Dubai, in the details</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='12' fill='%2314120f'/%3E%3Ccircle cx='32' cy='32' r='18' fill='none' stroke='%23f3d93f' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='4' fill='%23ef4c2f'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="grain" aria-hidden="true"></div>
+  <header class="topbar">
+    <a class="brand" href="#top" aria-label="Dubai, in the details — home">
+      <span class="brand-mark"></span>
+      <span>DUBAI, IN THE DETAILS</span>
+    </a>
+    <div class="time" aria-label="Local Dubai time"><span>DXB</span><strong id="clock">--:--</strong></div>
+    <button class="sound-toggle" type="button" aria-pressed="false" title="Toggle ambient sound">
+      <span class="sound-bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      <span>SOUND OFF</span>
+    </button>
+  </header>
+
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="kicker">NO TOWERS. NO SUPERLATIVES. HABIBI, LOOK CLOSER.</p>
+        <h1 id="hero-title"><span class="word word-left">SKIP THE</span><span class="word word-right">SKYLINE.</span></h1>
+        <p class="hero-note">Three small proofs that a city lives at eye level.</p>
+      </div>
+      <figure class="hero-frame">
+        <img src="assets/baqala-night.webp" alt="A tiny neighbourhood baqala glowing under fluorescent light late at night">
+        <figcaption><span>01 / 03</span><span>AL SATWA-ish, 00:47</span></figcaption>
+      </figure>
+      <div class="scroll-cue" aria-hidden="true"><span>SCROLL, SHWAY SHWAY</span><i></i></div>
+    </section>
+
+    <section class="manifesto reveal" aria-label="Introduction">
+      <p class="section-index">00 — THE BRIEF</p>
+      <div class="manifesto-copy">
+        <p>Dubai is not only the view from Sheikh Zayed Road. It is the <em>pssst</em> of a laban fridge at midnight, the tea ring nobody wipes, and the abra rope polished by a thousand hands.</p>
+        <p class="aside">If you know, you don’t need the pin.</p>
+      </div>
+    </section>
+
+    <section class="chapter chapter-baqala" id="baqala" data-accent="#d9f347">
+      <div class="chapter-head reveal">
+        <p class="section-index">01 — THE BAQALA BEACON</p>
+        <h2>“Boss, one laban<br>and that blue chips.”</h2>
+        <p>The fridge hum is the neighbourhood’s lighthouse. Open late enough to save a bad craving, close enough that slippers count as footwear.</p>
+      </div>
+
+      <div class="photo-stack" tabindex="0" aria-label="Interactive stack of baqala details. Hover or focus to scatter the photographs.">
+        <figure class="stack-card stack-main"><img src="assets/baqala-night.webp" alt="A fluorescent baqala doorway at night"><figcaption>THE LIGHT THAT MEANS “STILL OPEN”</figcaption></figure>
+        <figure class="stack-card stack-note note-card" aria-hidden="true"><div><span>OPEN</span><strong>until<br>khalas</strong></div></figure>
+        <figure class="stack-card stack-ticket ticket-card" aria-hidden="true"><div><span>HUNGER RECEIPT</span><b>01: Laban</b><b>01: Chips Oman-ish</b><b>01: “keep change”</b><em>PAID — AED 6.50</em></div></figure>
+      </div>
+      <div class="micro-row reveal">
+        <span>AC drip on the pavement</span><span>The bell that has heard everything</span><span>Cashier knows your usual</span>
+      </div>
+    </section>
+
+    <section class="chapter chapter-karak" id="karak" data-accent="#ef4c2f">
+      <div class="karak-grid">
+        <figure class="portrait-photo reveal">
+          <img src="assets/karak-counter.webp" alt="Two glasses of karak chai steaming on a scratched cafeteria counter">
+          <figcaption><span>02 / 03</span><span>LESS SUGAR, WALLAH</span></figcaption>
+        </figure>
+        <div class="chapter-head reveal">
+          <p class="section-index">02 — CUP THEORY</p>
+          <h2>One karak.<br><span>Make it strong.</span></h2>
+          <p>Not a coffee meeting. Just a two-dirham pause by a stainless-steel counter while the city pretends it is not tired.</p>
+          <blockquote>“Coming in two minutes.”<cite>— sent from twelve minutes away</cite></blockquote>
+        </div>
+      </div>
+      <div class="karak-rings" aria-hidden="true"><i></i><i></i><i></i><span>2 DHS</span></div>
+    </section>
+
+    <section class="relay" id="creek" aria-labelledby="relay-title">
+      <div class="relay-intro reveal">
+        <p class="section-index">03 — THE SHORT WAY ACROSS</p>
+        <h2 id="relay-title">The city, passed<br>hand to hand.</h2>
+        <p>A dirham. A rope. A wooden bench still warm from the last passenger. Some routes are older than “send location.”</p>
+      </div>
+
+      <div class="relay-stage" aria-live="polite">
+        <article class="relay-card is-active" data-label="THE KNOT">
+          <img src="assets/abra-rope.webp" alt="A blue abra rope tied around a worn metal cleat by Dubai Creek">
+          <div class="relay-caption"><span>THE KNOT</span><p>Blue rope, rusted cleat, creek water doing its disco thing.</p></div>
+        </article>
+        <article class="relay-card" data-label="THE CUP">
+          <img src="assets/karak-counter.webp" alt="Karak chai at a late-night cafeteria counter">
+          <div class="relay-caption"><span>THE CUP</span><p>Less sugar. Extra hot. The only order that needs no menu.</p></div>
+        </article>
+        <article class="relay-card" data-label="THE DOOR">
+          <img src="assets/baqala-night.webp" alt="An open baqala door glowing at night">
+          <div class="relay-caption"><span>THE DOOR</span><p>That particular fluorescent white: not pretty, just perfect.</p></div>
+        </article>
+      </div>
+      <div class="relay-controls">
+        <button type="button" class="relay-prev" aria-label="Previous detail">← PREV</button>
+        <div class="relay-count"><strong>01</strong><span>/ 03</span></div>
+        <button type="button" class="relay-next" aria-label="Next detail">NEXT →</button>
+      </div>
+    </section>
+
+    <section class="camera-roll" id="camera-roll" aria-labelledby="camera-title">
+      <div class="camera-head reveal">
+        <p class="section-index">04 — NOT ON THE BROCHURE</p>
+        <h2 id="camera-title">The long way<br>is the whole point.</h2>
+        <p>Clock Tower before traffic. A sikka with no blue dot. Creek wind in your face. P12 after everyone swore they remembered where the car was.</p>
+      </div>
+
+      <div class="contact-sheet">
+        <figure class="contact-photo contact-tall reveal" data-drift="-12">
+          <img src="assets/deira-clocktower.webp" alt="Deira Clocktower at blue hour framed through a scratched car mirror">
+          <figcaption><span>04:58</span><b>CLOCK TOWER, BEFORE THE HONKING</b></figcaption>
+        </figure>
+        <figure class="contact-photo contact-wide user-photo reveal" data-drift="10">
+          <img src="assets/creek-day-original.webp" alt="A passenger-eye view across Dubai Creek toward old Deira and its abra stations">
+          <figcaption><span>17:31</span><b>THE VIEW BETWEEN STOPS</b><em>YOUR FRAME</em></figcaption>
+        </figure>
+        <figure class="contact-photo contact-tall reveal" data-drift="-8">
+          <img src="assets/sikka-walk.webp" alt="A small walking tour moving through a narrow old Dubai lane">
+          <figcaption><span>11:06</span><b>NO PIN. FOLLOW THE GUIDE.</b></figcaption>
+        </figure>
+        <aside class="route-note reveal" aria-label="Local route note">
+          <p>WALKING DIRECTIONS</p>
+          <strong>Left at the textile shop.<br>Right where the AC drips.<br>If you see the creek,<br>you went too far.</strong>
+          <span>— source: trust me bro</span>
+        </aside>
+        <figure class="contact-photo contact-wide reveal" data-drift="12">
+          <img src="assets/abra-passengers.webp" alt="Passengers riding a working wooden abra across Dubai Creek">
+          <figcaption><span>17:44</span><b>WINDOW SEAT, NO WINDOW</b></figcaption>
+        </figure>
+        <figure class="contact-photo contact-wide user-photo reveal" data-drift="-10">
+          <img src="assets/creek-night-original.webp" alt="A brightly lit wooden boat reflected in Dubai Creek at night">
+          <figcaption><span>21:22</span><b>CREEK LIGHTS DOING THE MOST</b><em>YOUR FRAME</em></figcaption>
+        </figure>
+        <figure class="contact-photo contact-tall reveal" data-drift="8">
+          <img src="assets/global-village-parking.webp" alt="A shopping trolley and families crossing the Global Village parking lot after dark">
+          <figcaption><span>23:48</span><b>GLOBAL VILLAGE. ROW P12. MAYBE.</b></figcaption>
+        </figure>
+        <figure class="contact-photo contact-wide reveal" data-drift="-7">
+          <img src="assets/parking-rooftop.webp" alt="An older rooftop parking lot at violet dusk with a runaway trolley">
+          <figcaption><span>18:37</span><b>MAFI PARKING? CHECK THE ROOF.</b></figcaption>
+        </figure>
+      </div>
+      <p class="camera-end reveal">SEVEN DETOURS. ZERO SKYLINES. <span>YALLA, KEEP WALKING →</span></p>
+    </section>
+
+    <section class="field-notes" aria-labelledby="notes-title">
+      <div class="field-title reveal"><p class="section-index">FIELD NOTES — FOR LOCALS ONLY</p><h2 id="notes-title">You had to be there.</h2></div>
+      <div class="phrase-grid">
+        <article class="phrase reveal"><span>01</span><p>“Mafi parking, I’ll wait in the car.”</p><small>THE NATIONAL COPING MECHANISM</small></article>
+        <article class="phrase reveal"><span>02</span><p>“Take the service road, not main road.”</p><small>ELITE ROUTE KNOWLEDGE</small></article>
+        <article class="phrase reveal"><span>03</span><p>“No need location. Behind the old Choithrams.”</p><small>URBAN CARTOGRAPHY</small></article>
+        <article class="phrase reveal"><span>04</span><p>“Same same. But different.”</p><small>THE ANSWER TO EVERYTHING</small></article>
+      </div>
+    </section>
+
+    <section class="closing">
+      <p class="closing-small">THE CITY IS NOT A POSTCARD.</p>
+      <h2>It’s the stuff<br>you stop noticing.</h2>
+      <p class="closing-arabic" lang="ar" dir="rtl">دبي في التفاصيل</p>
+      <a href="#top">BACK TO THE BAQALA ↑</a>
+    </section>
+  </main>
+
+  <footer>
+    <span>MADE BETWEEN THE LAST ABRA &amp; THE FIRST KARAK</span>
+    <span>25.2048° N / 55.2708° E</span>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
