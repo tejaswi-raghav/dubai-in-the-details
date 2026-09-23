@@ -1,6 +1,6 @@
 # Dubai, in the details
 
-An interactive photo essay about the tiny rituals and textures that make Dubai feel like itself: the midnight baqala, the scratched karak counter, the abra rope, Deira Clocktower before traffic, Creek crossings, Global Village parking, and the long way through an old sikka.
+An interactive photo essay about the tiny rituals and textures that make Dubai feel like itself: the midnight baqala, the scratched karak counter, the Metro home, petrol-station light, street cats, neighborhood groceries, Creek crossings, and parking-lot archaeology.
 
 ## Live website
 
@@ -8,7 +8,7 @@ An interactive photo essay about the tiny rituals and textures that make Dubai f
 
 ## Photography
 
-Original AI-generated editorial photography created for this project. The shared Google Drive folder will be added here when upload is complete.
+Original AI-generated editorial photography created for this project is archived in the [Dubai in the Details — Photography folder](https://drive.google.com/drive/folders/1Zw5VV-N8_DdK54pnG0GqTGqjvMcuT79H).
 
 ## Experience
 
